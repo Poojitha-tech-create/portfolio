@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="personal.html">Personal</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Me</h2>
+
+      <div>
+        <p><strong>Phone:</strong> +91 9014037467</p>
+        <p><strong>Email:</strong> kanugantipoojitha@gmail.com</p>
+        <p><strong>Location:</strong> Hyderabad, Telangana, India</p>
+      </div>
+
+      <form id="contactForm" method="POST" action="/contact">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br />
+
+        <button type="submit">Send</button>
+      </form>
+
+      <p id="formStatus"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Kanuganti Poojitha</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
